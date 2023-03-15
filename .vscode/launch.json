@@ -1,0 +1,135 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "List",
+            "request": "launch",
+            "mainClass": "List",
+            "projectName": "Competitive Programming_9fe1289d"
+        },
+        {
+            "type": "java",
+            "name": "Nearest",
+            "request": "launch",
+            "mainClass": "Nearest",
+            "projectName": "Competitive Programming_9fe1289d"
+        },
+        {
+            "type": "java",
+            "name": "LowestorGreatest",
+            "request": "launch",
+            "mainClass": "LowestorGreatest",
+            "projectName": "Competitive Programming_9fe1289d"
+        },
+        {
+            "type": "java",
+            "name": "PositiveNegative",
+            "request": "launch",
+            "mainClass": "PositiveNegative",
+            "projectName": "Competitive Programming_9fe1289d"
+        },
+        {
+            "type": "java",
+            "name": "Older",
+            "request": "launch",
+            "mainClass": "Older",
+            "projectName": "Competitive Programming_9fe1289d"
+        },
+        {
+            "type": "java",
+            "name": "RayRicochet",
+            "request": "launch",
+            "mainClass": "RayRicochet",
+            "projectName": "Competitive Programming_9fe1289d"
+        },
+        {
+            "type": "java",
+            "name": "Average",
+            "request": "launch",
+            "mainClass": "Average",
+            "projectName": "Competitive Programming_9fe1289d"
+        },
+        {
+            "type": "java",
+            "name": "Arith",
+            "request": "launch",
+            "mainClass": "Arith",
+            "projectName": "Competitive Programming_9fe1289d"
+        },
+        {
+            "type": "java",
+            "name": "Arithmetic",
+            "request": "launch",
+            "mainClass": "Arithmetic",
+            "projectName": "Competitive Programming_9fe1289d"
+        },
+        {
+            "type": "java",
+            "name": "Proglang",
+            "request": "launch",
+            "mainClass": "Proglang",
+            "projectName": "Competitive Programming_9fe1289d"
+        },
+        {
+            "type": "java",
+            "name": "Euclid",
+            "request": "launch",
+            "mainClass": "Euclid",
+            "projectName": "Competitive Programming_9fe1289d"
+        },
+        {
+            "type": "java",
+            "name": "TravellingSpaceTime",
+            "request": "launch",
+            "mainClass": "TravellingSpaceTime",
+            "projectName": "Competitive Programming_9fe1289d"
+        },
+        {
+            "name": "(gdb) Attach",
+            "type": "cppdbg",
+            "request": "attach",
+            "program": "enter program name, for example ${workspaceFolder}/a.exe",
+            "MIMode": "gdb",
+            "miDebuggerPath": "/path/to/gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Set Disassembly Flavor to Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "C/C++: gcc.exe build and debug active file",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "C:/msys64/mingw32/bin",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Set Disassembly Flavor to Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "C/C++: gcc.exe build active file"
+        }
+    ],
+    "version": "2.0.0"
+}
