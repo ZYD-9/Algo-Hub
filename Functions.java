@@ -64,7 +64,7 @@ public class Functions {
         
     }
 
-   // factorial
+   // addTo method
     public static String  addTo(int x ){
      
     int sum = 0;  
@@ -80,7 +80,7 @@ public class Functions {
 }
     
 
-    public static void Charge(int amount){
+    public  void Charge(int amount){
     
     int charge = 0;
         if(amount<=10){
@@ -100,7 +100,7 @@ public class Functions {
     // main method
     public static void main (String args[]){
 
-
+      Functions  func = new Functions();
        int lower = Functions.lowest(4, 5, 3);
        int greater = Functions.greatest(3, 4, 5);
        System.out.println("The lowest number is " + ": " + lower );
@@ -108,10 +108,14 @@ public class Functions {
 
        int near = Functions.nearest(25, 15);
        System.out.println("Nearest" + ": "+ near);
+       String soltoIsquals = Functions.isEqauls(4,5 )?"Values are equal":"Values are not Equal";
+       System.out.println(soltoIsquals);
+       func.Charge(4);
        String addnums = Functions.addTo(6);
-
        System.out.println(addnums);
-       Functions.Charge(4);
+       
+       
+       
        
 
 
