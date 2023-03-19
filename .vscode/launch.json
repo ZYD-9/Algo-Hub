@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Functions",
+            "request": "launch",
+            "mainClass": "Functions",
+            "projectName": "Competitive Programming_9fe1289d"
+        },
+        {
+            "type": "java",
             "name": "List",
             "request": "launch",
             "mainClass": "List",
