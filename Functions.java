@@ -112,7 +112,7 @@ public class Functions {
        System.out.println(soltoIsquals);
        func.Charge(4);
        String addnums = Functions.addTo(6);
-       System.out.println(addnums);
+       System.out.println("Solution : " + addnums);
        
        
        

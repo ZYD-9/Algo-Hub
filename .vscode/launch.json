@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Collatz",
+            "request": "launch",
+            "mainClass": "Collatz",
+            "projectName": "Competitive Programming_9fe1289d"
+        },
+        {
+            "type": "java",
             "name": "Functions",
             "request": "launch",
             "mainClass": "Functions",
