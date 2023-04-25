@@ -33,7 +33,7 @@ class Item:
             return False
 
     def __repr__(self):
-        return f"('{self.name}','{self.price}',{self.quantity})"
+        return f"{self.__class__.__name__}('{self.name}','{self.price}',{self.quantity})"
     
     @classmethod
     def instantiate_from_csv(cls):
@@ -47,8 +47,21 @@ class Item:
                 quantity = int(i.get('quantity'))
             )
 
+# child class 
+class Phone(Item):
+    
+    def __init__(self, name, price,quantity,new_phone):
+       super().__init__(name, price, quantity)
+       
+       assert new_phone >=0,"Broken Phones is not greater or equal to Zero(0)"
+       self.new_phone = new_phone
 
-print(Item.is_integer(9))
+phone_1 = Phone("Nokia", 3000,2,4)
+phone_2 = Phone("Apple",200.00,2,2)
+print(Item.all)
+print(Phone.all)
+
+
 
 
     
